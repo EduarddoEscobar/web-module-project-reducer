@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
+    "build": "webpack build",
     "start": "webpack serve --open",
     "test": "cross-env NODE_ENV=testing jest --verbose --forceExit"
   },
